@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import Title from "../../componet/Title";
 import { assets, dashboardDummyData } from "../../assets/assets";
 
-function Hoteldash() {
+
+function Dashb() {
   const [dashboardData, setDashboardData] = useState(dashboardDummyData);
   return (
     <div>
@@ -80,6 +81,7 @@ function Hoteldash() {
       </div>
     </div>
   );
+
 }
 
-export default Hoteldash;
+export default Dashb

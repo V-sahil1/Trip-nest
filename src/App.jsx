@@ -10,7 +10,8 @@ import HotelReg from "./componet/HotelReg";
 import Layout from "./pages/HotelOwner/Layout";
 import Addroom from "./pages/HotelOwner/Addroom";
 import ListRoom from "./pages/HotelOwner/ListRoom";
-import Hoteldash from "./pages/HotelOwner/hoteldash";
+
+import Dashb from "./pages/HotelOwner/Dashb";
 
 function App() {
   const isOwnerPath = useLocation().pathname.includes("owner");
@@ -26,7 +27,7 @@ function App() {
           <Route path="/rooms/:id" element={<RoomDetails/>} />
           <Route path="/my-bookings" element={<Mybooking/>} />
           <Route path="/owner" element={<Layout/>}>
-          <Route index  element={<Hoteldash/>}/>
+          <Route index  element={<Dashb/>}/>
            <Route path="add-room" element={<Addroom/>} />
            <Route path="list-room" element={<ListRoom/>} />
 
