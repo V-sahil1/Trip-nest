@@ -144,7 +144,7 @@ export const hotelDummyData = {
     
     "contact": "+0123456789",
     "owner": userDummyData,
-    "city": "New York",
+    
     "createdAt": "2025-04-10T06:22:11.663Z",
     "updatedAt": "2025-04-10T06:22:11.663Z",
     "__v": 0
@@ -154,7 +154,7 @@ export const hotelDummyData = {
 export const roomsDummyData = [
     {
         "_id": "67f7647c197ac559e4089b96",
-        "hotel": {...hotelDummyData,name: "The Leela Palace",address: "The Leela Palace,Africa Ave, Diplomatic Enclave, Chanakyapuri,Delhi 110023",map:assets.leela},
+        "hotel": {...hotelDummyData,name: "The Leela Palace",address: "The Leela Palace,Africa Ave, Diplomatic Enclave, Chanakyapuri,Delhi 110023",map:assets.leela,"city": "India"},
         "roomType": "Double Bed",
         
         "pricePerNight": 8499,
@@ -167,7 +167,7 @@ export const roomsDummyData = [
     },
     {
         "_id": "67f76452197ac559e4089b8e",
-        "hotel": {...hotelDummyData,name: "Marina Bay Sands", address: "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore 018956",map:assets.mb},
+        "hotel": {...hotelDummyData,name: "Marina Bay Sands", address: "10 Bayfront Ave, Marina Bay Sands Singapore, Singapore 018956",map:assets.mb,"city": "Singapore"},
         "roomType": "Double Bed",
         "pricePerNight": 9499,
         "amenities": ["Room Service", "Mountain View", "Pool Access"],
@@ -180,7 +180,7 @@ export const roomsDummyData = [
     },
     {
         "_id": "67f76406197ac559e4089b82",
-        "hotel": {...hotelDummyData,name: "	The Savoy",address: "Strand, London WC2R 0EZ, United Kingdom",map:assets.ts},
+        "hotel": {...hotelDummyData,name: "	The Savoy",address: "Strand, London WC2R 0EZ, United Kingdom",map:assets.ts,"city": "United Kingdom"},
         "roomType": "Double Bed",
         "pricePerNight": 8999,
         "amenities": ["Free WiFi", "Free Breakfast", "Room Service"],
@@ -192,7 +192,7 @@ export const roomsDummyData = [
     },
     {
         "_id": "67f763d8197ac559e4089b7a",
-        "hotel": {...hotelDummyData,name: "Luxor Hotel & Casino",address: "3900 S Las Vegas Blvd, Las Vegas, NV 89119, United States",map:assets.lnc},
+        "hotel": {...hotelDummyData,name: "Luxor Hotel & Casino",address: "3900 S Las Vegas Blvd, Las Vegas, NV 89119, United States",map:assets.lnc,"city": "United States"},
         "roomType": "Single Bed",
         "pricePerNight": 11199,
         "amenities": ["Free WiFi", "Room Service", "Pool Access"],
@@ -203,8 +203,8 @@ export const roomsDummyData = [
         "__v": 0
     },
     {
-        "_id": "67f763d8197ac559e4089b7a",
-        "hotel": {...hotelDummyData,name: "Burj Al Arab",address: "Jumeirah St, Umm Suqeim 3, Dubai, United Arab Emirates",map:assets.lnc},
+        "_id": "67f763d8197ac559e4089b7",
+        "hotel": {...hotelDummyData,name: "Burj Al Arab",address: "Umm Suqeim 3 - Dubai - United Arab Emirates",map:assets.lnc,"city": "United Arab Emirates"},
         "roomType": "Single Bed",
         "pricePerNight": 11199,
         "amenities": ["Free WiFi", "Room Service", "Pool Access"],
@@ -215,8 +215,8 @@ export const roomsDummyData = [
         "__v": 0
     },
     {
-        "_id": "67f763d8197ac559e4089b7a",
-        "hotel": {...hotelDummyData,name: "The Ritz-Carlton",address: "	181 Wellington St W, Toronto, ON M5V 3G7, Canada",map:assets.lnc},
+        "_id": "67f763d8197ac559e408b7a",
+        "hotel": {...hotelDummyData,name: "The Ritz-Carlton",address: "	181 Wellington St W, Toronto, ON M5V 3G7, Canada",map:assets.lnc,"city": "Canada"},
         "roomType": "Single Bed",
         "pricePerNight": 11199,
         "amenities": ["Free WiFi", "Room Service", "Pool Access"],
@@ -227,8 +227,8 @@ export const roomsDummyData = [
         "__v": 0
     },
     {
-        "_id": "67f763d8197ac559e4089b7a",
-        "hotel": {...hotelDummyData,name: "Mandarin Oriental",address: "776 Boylston St, Boston, MA 02199, United States",map:assets.lnc},
+        "_id": "67f763d8197ac59e4089b7a",
+        "hotel": {...hotelDummyData,name: "Mandarin Oriental",address: "776 Boylston St, Boston, MA 02199, United States",map:assets.lnc,"city": "United States"},
         "roomType": "Single Bed",
         "pricePerNight": 11199,
         "amenities": ["Free WiFi", "Room Service", "Pool Access"],
@@ -239,8 +239,8 @@ export const roomsDummyData = [
         "__v": 0
     },
       {
-        "_id": "67f763d8197ac559e4089b7a",
-        "hotel": {...hotelDummyData,name: "	Hotel Plaza Athénée",address: "25 Avenue Montaigne, 75008 Paris, France",map:assets.lnc},
+        "_id": "67f73d8197ac559e4089b7a",
+        "hotel": {...hotelDummyData,name: "	Hotel Plaza Athénée",address: "25 Avenue Montaigne, 75008 Paris, France",map:assets.lnc,"city": "France"},
         "roomType": "Single Bed",
         "pricePerNight": 11199,
         "amenities": ["Free WiFi", "Room Service", "Pool Access"],
