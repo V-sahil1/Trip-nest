@@ -42,12 +42,19 @@ import leela from "../assets/leela.png"
 import lnc from "../assets/lnc.png"
 import mb from "../assets/mb.png"
 import ts from "../assets/ts.png"
-
+import dubai from "../assets/dubai.png"
+import bo from "../assets/bo.png"
+import plaza from "../assets/plaza.png"
+import the from "../assets/the.png"
 
 export const assets = {
     logo,
     lnc,
     mb,
+    dubai,
+    bo,
+    plaza,
+    the,
     ts,
     leela,
     searchIcon,
@@ -204,7 +211,7 @@ export const roomsDummyData = [
     },
     {
         "_id": "67f763d8197ac559e4089b7",
-        "hotel": {...hotelDummyData,name: "Burj Al Arab",address: "Umm Suqeim 3 - Dubai - United Arab Emirates",map:assets.lnc,"city": "United Arab Emirates"},
+        "hotel": {...hotelDummyData,name: "Burj Al Arab",address: " Burj Al Arab Umm Suqeim 3 - Dubai - United Arab Emirates",map:assets.dubai,"city": "United Arab Emirates"},
         "roomType": "Single Bed",
         "pricePerNight": 11199,
         "amenities": ["Free WiFi", "Room Service", "Pool Access"],
@@ -216,7 +223,7 @@ export const roomsDummyData = [
     },
     {
         "_id": "67f763d8197ac559e408b7a",
-        "hotel": {...hotelDummyData,name: "The Ritz-Carlton",address: "	181 Wellington St W, Toronto, ON M5V 3G7, Canada",map:assets.lnc,"city": "Canada"},
+        "hotel": {...hotelDummyData,name: "The Ritz-Carlton",address: "The Ritz-Carlton	181 Wellington St W, Toronto, ON M5V 3G7, Canada",map:assets.the,"city": "Canada"},
         "roomType": "Single Bed",
         "pricePerNight": 11199,
         "amenities": ["Free WiFi", "Room Service", "Pool Access"],
@@ -228,7 +235,7 @@ export const roomsDummyData = [
     },
     {
         "_id": "67f763d8197ac59e4089b7a",
-        "hotel": {...hotelDummyData,name: "Mandarin Oriental",address: "776 Boylston St, Boston, MA 02199, United States",map:assets.lnc,"city": "United States"},
+        "hotel": {...hotelDummyData,name: "Mandarin Oriental",address: " Mandarin Oriental 776 Boylston St, Boston, MA 02199, United States",map:assets.bo,"city": "United States"},
         "roomType": "Single Bed",
         "pricePerNight": 11199,
         "amenities": ["Free WiFi", "Room Service", "Pool Access"],
@@ -240,7 +247,7 @@ export const roomsDummyData = [
     },
       {
         "_id": "67f73d8197ac559e4089b7a",
-        "hotel": {...hotelDummyData,name: "	Hotel Plaza Athénée",address: "25 Avenue Montaigne, 75008 Paris, France",map:assets.lnc,"city": "France"},
+        "hotel": {...hotelDummyData,name: "	Hotel Plaza Athénée",address: " Hotel Plaza Athénée 25 Avenue Montaigne, 75008 Paris, France",map:assets.plaza,"city": "France"},
         "roomType": "Single Bed",
         "pricePerNight": 11199,
         "amenities": ["Free WiFi", "Room Service", "Pool Access"],

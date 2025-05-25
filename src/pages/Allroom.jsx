@@ -27,21 +27,21 @@ function Allroom() {
 
   const [openFillter, setOpenfillter] = useState(false);
   const roomTypes =[
-    'single Bed',
+    'Single Bed',
     'Double Bed',
     'Luxury Room',
     'Family Suite',
 
   ];
   const priceRange =[
-    '0 to 500',
-    '500 to 1000',
-    '1000 to 2000',
-    '2000 to 3000'
+    '₹0 to ₹6999',
+    '₹6999 to ₹9999',
+    '₹9999 to ₹15,999',
+    '₹15,999 to ₹19,999'
   ]
   const sortOptions =[
-    "price Low to High",
-    "price High to Low",
+    "Price: Low to High",
+    "Price: High to Low",
     "Newest First",
   ]
   return (
@@ -123,7 +123,7 @@ function Allroom() {
          </div>
         <div className={`${openFillter ? "h-auto " : "h-0 lg:h-auto"} overflow-hidden transition-all duration-700 `}>
             <div className="px-5 py-5">
-                <p className="font-medium text-gray-800 pb-2">Popular filters</p>
+                <p className="font-medium text-gray-800 pb-2">Popular Filters</p>
                 {roomTypes.map((room,index)=>(
                   <CheckBox key={index} label={room}/>
                 ))}
